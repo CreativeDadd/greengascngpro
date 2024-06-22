@@ -1,9 +1,9 @@
 {
   "name": "greangascngpro",
-  "private": true,
   "version": "0.0.0",
+  "homepage": "https://creativedadd.github.io/greengascngpro/",
+  "private": true,
   "type": "module",
-  "homepage": "https://CreativeDadd.github.io/greengascngpro/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
