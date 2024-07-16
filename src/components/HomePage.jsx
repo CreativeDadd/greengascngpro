@@ -5,6 +5,10 @@ import Hero from './Hero'
 import AboutUs from './AboutUs'
 import ProductPage from './ProductPage'
 import ProjectGallery from './ProjectGallery'
+import Career from './Career'
+import Testimonials from './Testimonnials'
+import FAQAccordion from './FAQAccordion'
+// import ContactForm from './ContactForm'
 const HomePage = () => {
   return (
     <div>
@@ -12,7 +16,12 @@ const HomePage = () => {
         <ProductPage  />
         <AboutUs  />
         <ProjectGallery  />
+        <Career  />
+        <Testimonials  />
+        <FAQAccordion />
 
+        {/* <ContactForm  /> */}
+        
     </div>
   )
 }

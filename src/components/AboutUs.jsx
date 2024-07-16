@@ -3,7 +3,7 @@ import aboutimg from '../assets/images/aboutimg.png';
 
 const AboutUs = () => {
   return (
-    <div className="bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 min-h-screen py-12 px-4 sm:px-6 lg:px-8 text-white">
+    <div className="bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 min-h-screen py-12 px-4 sm:px-6 lg:px-8 text-white mt-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-base text-yellow-300 font-semibold tracking-wide uppercase">About Us</h2>
@@ -43,7 +43,7 @@ const AboutUs = () => {
               <img
                 className="mx-auto rounded-lg shadow-lg"
                 src={aboutimg}
-                alt="Engineering Tech"
+                alt="Engineering Tech" loading='lazy'
               />
             </div>
           </div>
