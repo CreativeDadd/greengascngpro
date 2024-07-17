@@ -27,7 +27,7 @@ const Testimonials = () => {
             <div key={testimonial.id} className="bg-white shadow-lg rounded-lg overflow-hidden">
               <img
                 src={testimonial.image}
-                alt={`${testimonial.company} testimonial`}
+                alt={`${testimonial.company} testimonial `}
                 className="w-full h-56 object-cover"
               />
               <div className="p-6">
