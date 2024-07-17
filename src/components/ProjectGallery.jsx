@@ -1,23 +1,26 @@
 import React from 'react';
+import project1CNG from '../assets/images/project1CNG.jpg';
+import project2CNG from '../assets/images/project2CNG.jpg';
+import project3CNG from '../assets/images/project3CNG.jpg';
 
 const projects = [
   {
     id: 1,
     title: 'Petrol Car CNG Conversion',
     description: 'Successfully converted petrol cars to CNG, ensuring better fuel efficiency and lower emissions.',
-    imageUrl: 'https://via.placeholder.com/400x300.png?text=Project+1',
+    imageUrl: 'project1CNG',
   },
   {
     id: 2,
     title: 'Diesel Truck Dual-Fuel Conversion',
     description: 'Implemented dual-fuel conversion for diesel trucks, combining diesel and CNG for cost-effective fuel usage.',
-    imageUrl: 'https://via.placeholder.com/400x300.png?text=Project+2',
+    imageUrl: 'project2CNG',
   },
   {
     id: 3,
     title: 'Distribution Vans CNG Conversion',
     description: 'Converted distribution vans to CNG, providing a greener alternative for urban deliveries.',
-    imageUrl: 'https://via.placeholder.com/400x300.png?text=Project+3',
+    imageUrl: 'project3CNG',
   },
   {
     id: 4,

@@ -39,7 +39,7 @@ const BlogPost1 = () => {
           </h1>
         </div>
 
-        <div className="mt-10 prose prose-green prose-lg mx-auto text-gray-600 px-24">
+        <div className="mt-10 prose prose-green prose-lg mx-auto text-gray-600 md:px-24">
           <p>
             With rising fuel prices and growing environmental concerns, many car owners are exploring alternative fuels to power their vehicles. Compressed Natural Gas (CNG) has emerged as a popular choice due to its economic and environmental benefits. If you're considering converting your petrol car to CNG, here are some compelling reasons to make the switch.
           </p>

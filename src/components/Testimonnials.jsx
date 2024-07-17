@@ -1,17 +1,19 @@
 import React from 'react';
+import multipro from '../assets/images/multipro.jpg';
+import petrocam from '../assets/images/petrocam.webp';
 
 const testimonials = [
   {
     id: 1,
     company: "Multipro Limited",
     text: "We have worked for Multipro Limited.",
-    image: "multipro.jpg" // Placeholder image name
+    image: "multipro" // Placeholder image name
   },
   {
     id: 2,
     company: "PetroCam Energy Filling Station",
     text: "We have worked for PetroCam Energy Filling Station in converting their fleet of distribution vans, cars, and diesel trucks and diesel generators to using CNG gas.",
-    image: "petrocam.jpg" // Placeholder image name
+    image: "petrocam" // Placeholder image name
   }
 ];
 
