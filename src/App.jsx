@@ -16,7 +16,14 @@ import FAQAccordion from './components/FAQAccordion';
 import DieselCngGenset from './pages/DieselCngGenset';
 import PetrolCNGEngine from './pages/PetrolCNGEngine';
 import Career from './components/Career';
-// import PetrolCNGEngine from './pages/PetrolCNGEngine';
+import JobDetails from './pages/JobDetails';
+import JobsForm from './pages/JobsForm';
+import TruckDieselEngine from './pages/TruckDieselEngine'
+import DieselTruckSavings from './pages/DieselTruckSavings'
+import ScrollToTop from './components/ScrollToTop';
+import Contactlist from './components/Contactlist';
+
+
 
 
 const App = () => {
@@ -24,7 +31,8 @@ const App = () => {
     
       <div className="min-h-screen flex flex-col">
         <Navbars />
-        <main className="flex-grow">
+        <ScrollToTop />
+        <main className="flex-grow mt-5">
           <Routes>
             < Route path="/greengascngpro/" element={<HomePage />} />
             <Route path="/" element={<HomePage />} />
@@ -40,7 +48,13 @@ const App = () => {
             <Route path="/faq" element={<FAQAccordion />} />
             <Route path="/pages/DieselCngGenset" element={<DieselCngGenset />} />
             <Route path="/products/PetrolCNGEngine" element={<PetrolCNGEngine />} />
-            <Route path="/career" element={<Career />} />
+            <Route path="/greengascngpro/career" element={<Career />} />
+            <Route path="/careers/:id" element={<JobDetails />} />
+            <Route path="/careers/:id/jobsForm" element={<JobsForm />} />
+            <Route path="/products/diesel-cng" element={<TruckDieselEngine />} />
+            <Route path="/dieseltrucksavings" element={<DieselTruckSavings />} />
+            <Route path="/contactlist" element={<Contactlist />} />
+            <Route path="/greengascngpro/contact" element={<ContactForm />} />
             
           </Routes>
         </main>

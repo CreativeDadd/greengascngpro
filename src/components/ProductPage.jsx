@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { Link } from'react-router-dom';
 import daughterStation from '../assets/images/daughterStation.jpeg';
 import CNGMobileStation from '../assets/images/CNGMobileStation.jpg';
@@ -6,6 +7,7 @@ import cngKITimg from '../assets/images/cngKITimg.jpg';
 import cngDieselKit from '../assets/images/cngDieselKit.jpg';
 import cngDieselGenset from '../assets/images/cngDieselGenset.jpg';
 import cngTricycleKit from '../assets/images/cngTricycleKit.jpeg';
+import cngkitImg1 from '../assets/images/cngkitImg1.jpg'
 
 const ProductPage = () => {
   return (
@@ -22,13 +24,19 @@ const ProductPage = () => {
           {/* Product Card 1: Petrol CNG Conversion Kit */}
           <div className="flex flex-col bg-white shadow-lg rounded-lg overflow-hidden">
             <div className="flex-shrink-0">
-              <img className="h-64 w-full object-cover" src={cngKITimg} alt="Petrol CNG Conversion Kit" />
+              <motion.img 
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }} 
+              transition={{duration: 2}}
+              className="h-64 w-full object-cover" src={cngkitImg1} alt="Petrol CNG Conversion Kit" />
             </div>
             <div className="flex-1 bg-green-50 p-6 flex flex-col justify-between">
               <div className="flex-1">
                 <h3 className="font-bold text-xl mb-2">Petrol CNG Conversion Kit</h3>
                 <p className="text-gray-600 leading-relaxed">
                   Convert your petrol vehicle to run on Compressed Natural Gas (CNG) efficiently and cost-effectively.
+                  Maintenance: CNG systems can lead to lower maintenance costs due to cleaner combustion, which reduces engine wear and deposits.
+Environmental Impact: CNG produces fewer emissions compared to petrol, contributing to lower environmental impact.
                 </p>
               </div>
               <div className="mt-6">
@@ -50,7 +58,7 @@ const ProductPage = () => {
                 </p>
               </div>
               <div className="mt-6">
-                <a href="/products/diesel-cng" className="text-green-600 hover:text-green-700 font-semibold">Learn More</a>
+                <Link to="/products/diesel-cng" className="text-green-600 hover:text-green-700 font-semibold">Learn More</Link>
               </div>
             </div>
           </div>

@@ -7,13 +7,13 @@ const testimonials = [
     id: 1,
     company: "Multipro Limited",
     text: "We have worked for Multipro Limited.",
-    image: "multipro" // Placeholder image name
+    image: "multipro" 
   },
   {
     id: 2,
     company: "PetroCam Energy Filling Station ",
     text: "We have worked for PetroCam Energy Filling Station in converting their fleet of distribution vans, cars, and diesel trucks and diesel generators to using CNG gas.",
-    image: "petrocam" // Placeholder image name
+    image: "petrocam" 
   }
 ];
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const LearnMore = () => {
   return (
@@ -65,12 +66,12 @@ const LearnMore = () => {
               Ready to make the switch to cleaner energy? Contact us today to learn more about our CNG solutions and how we can help you transition to a more sustainable future.
             </p>
             <div className="mt-8">
-              <a
-                href="#"
+              <Link
+                to="/contact"
                 className="inline-block px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700"
               >
                 Contact Us
-              </a>
+              </Link>
             </div>
           </section>
         </div>

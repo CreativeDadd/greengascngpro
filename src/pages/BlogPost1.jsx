@@ -1,36 +1,10 @@
-// import React from 'react';
-// import { useParams } from 'react-router-dom';
 
-// const BlogPost1 = () => {
-//   return (
-//     <div className="bg-white py-12">
-//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-//         <div className="lg:text-center">
-//           <h2 className="text-base text-green-600 font-semibold tracking-wide uppercase">Blog</h2>
-//           <h1 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-//             The Benefits of Converting Your Petrol Car to CNG
-//           </h1>
-//         </div>
-
-//         <div className="mt-10">
-//           <p className="text-gray-600">
-//             {/* Blog content goes here */}
-//             Converting your petrol car to CNG offers numerous benefits, including cost savings and environmental advantages...
-//           </p>
-//           {/* Add more content as needed */}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default BlogPost1;
 
 import React from 'react';
 
 const BlogPost1 = () => {
   return (
-    <div className="bg-white py-12">
+    <div className="bg-white py-12 mt-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-base text-green-600 font-semibold tracking-wide uppercase">Blog</h2>

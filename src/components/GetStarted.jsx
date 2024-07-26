@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const GetStarted = () => {
   return (
-    <div className="bg-gray-100 min-h-screen py-10">
+    <div className="bg-gray-100 min-h-screen py-10 mt-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold text-green-800 text-center mb-10">Get Started with GreenGas Technologies</h1>
 
@@ -83,12 +84,12 @@ const GetStarted = () => {
             >
               WhatsApp Us
             </a>
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="inline-block px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700"
             >
               Contact Form
-            </a>
+            </Link>
           </div>
         </section>
       </div>

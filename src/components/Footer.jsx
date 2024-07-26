@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/images/logo.png'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -21,24 +22,24 @@ const Footer = () => {
           {/* Navigation Links */}
           <div className="flex flex-col space-y-2">
             <h3 className="text-lg font-bold mb-4">Navigation</h3>
-            <a href="/" className="hover:underline">Home</a>
-            <a href="/about" className="hover:underline">About Us</a>
-            <a href="/products" className="hover:underline">Products</a>
-            <a href="/blog" className="hover:underline">Blog</a>
-            <a href="/contact" className="hover:underline">Contact</a>
+            <Link to="/" className="hover:underline">Home</Link>
+            <Link to="/about" className="hover:underline">About Us</Link>
+            <Link to="/products" className="hover:underline">Products</Link>
+            <Link to="/blog" className="hover:underline">Blog</Link>
+            <Link to="/contact" className="hover:underline">Contact</Link>
           </div>
 
           {/* Contact Info and Subscription */}
           <div className="flex flex-col space-y-4">
             <h3 className="text-lg font-bold mb-4">Contact Us</h3>
             <p>
-              Email: <a href="mailto:info@greengas.com" className="hover:underline">info@greengas.com</a>
+              Email: <a href="mailto:greengasc@gmail.com" className="hover:underline">greengasc@gmail.com</a>
             </p>
             <p>
-              Phone: <a href="tel:+1234567890" className="hover:underline">+1 234 567 890</a>
+              Phone: <a href="tel:+2347035391488" className="hover:underline">+2347035391488</a>
             </p>
             <p>
-              Address: 123 GreenGas St, Tech City, Country
+              Address: No.9 NERDIC Road, Alausa, Ikeja, Lagos, Nigeria.
             </p>
             <form className="mt-4">
               <label htmlFor="email" className="block text-sm font-medium text-white">Subscribe to our newsletter</label>

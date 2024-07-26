@@ -4,7 +4,7 @@ import cngKITimg from '../assets/images/cngKITimg.jpg';
 
 const PetrolCNGEngine = () => {
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-gray-100 min-h-screen mt-11">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
           <div className="flex-shrink-0">

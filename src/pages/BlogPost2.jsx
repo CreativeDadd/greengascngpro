@@ -1,13 +1,14 @@
 import React from 'react';
+import truckscetch3 from '../assets/images/truckscetch3.jpeg'
 
 const BlogPost2 = () => {
   return (
-    <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8 mt-10">
       <h1 className="text-4xl font-bold text-gray-900 mb-4">The Advantages of Diesel CNG Dual-Fuel Conversion</h1>
       <p className="text-gray-600 mb-8">June 25, 2024 | By John Doe</p>
       <img
         className="w-full h-64 object-cover mb-8 rounded-lg shadow-md"
-        src="https://via.placeholder.com/800x400.png?text=Diesel+CNG+Dual-Fuel+Conversion"
+        src={truckscetch3}
         alt="Diesel CNG Dual-Fuel Conversion"
       />
       <div className="prose prose-lg mx-auto">

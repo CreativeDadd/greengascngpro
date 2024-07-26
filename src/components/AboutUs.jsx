@@ -64,7 +64,7 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="mt-2">
-                  <h4 className="text-lg leading-6 font-medium text-white">Innovative Solutions</h4>
+                  <h4 className="text-lg leading-6 font-medium text-white text-center">Innovative Solutions</h4>
                   <p className="mt-1 text-base text-gray-200 text-center">
                     We utilize the latest technology to ensure our CNG conversion kits provide optimal performance and efficiency.
                   </p>
@@ -79,7 +79,7 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="mt-2">
-                  <h4 className="text-lg leading-6 font-medium text-white">Sustainability</h4>
+                  <h4 className="text-lg leading-6 font-medium text-white text-center">Sustainability</h4>
                   <p className="mt-1 text-base text-gray-200 text-center">
                     Our solutions help reduce emissions and promote a cleaner, greener environment.
                   </p>
@@ -94,7 +94,7 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="mt-2">
-                  <h4 className="text-lg leading-6 font-medium text-white">Customer Support</h4>
+                  <h4 className="text-lg leading-6 font-medium text-white text-center">Customer Support</h4>
                   <p className="mt-1 text-base text-gray-200 text-center">
                     Our dedicated team is here to provide you with the best service and support every step of the way.
                   </p>

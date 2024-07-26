@@ -1,0 +1,16 @@
+.bg-green-50 {
+    background-color: #f0fdf4;
+  }
+  
+  .text-green-700 {
+    color: #047857;
+  }
+  
+  .bg-green-600 {
+    background-color: #047857;
+  }
+  
+  .hover\:bg-green-700:hover {
+    background-color: #065f46;
+  }
+  
