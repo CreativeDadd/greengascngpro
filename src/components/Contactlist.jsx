@@ -10,7 +10,7 @@ const Contactlist = () => {
     },
     {
       label: 'Phone Call',
-      link: 'tel:+234123456789',
+      link: 'tel:+2347035391488',
       icon: 'fas fa-phone',
     },
     {
