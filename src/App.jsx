@@ -22,6 +22,9 @@ import TruckDieselEngine from './pages/TruckDieselEngine'
 import DieselTruckSavings from './pages/DieselTruckSavings'
 import ScrollToTop from './components/ScrollToTop';
 import Contactlist from './components/Contactlist';
+import PetrolCarsCNGSavings from './pages/PetrolCarsCNGSavings'
+import DieselGenSavings from './pages/DieselGenSavings';
+
 
 
 
@@ -55,6 +58,8 @@ const App = () => {
             <Route path="/dieseltrucksavings" element={<DieselTruckSavings />} />
             <Route path="/contactlist" element={<Contactlist />} />
             <Route path="/greengascngpro/contact" element={<ContactForm />} />
+            <Route path="/getstarted/PetrolCarsCNGSavings" element={<PetrolCarsCNGSavings />} />
+            <Route path="/getstarted/dieselgensavings" element={<DieselGenSavings />} />
             
           </Routes>
         </main>

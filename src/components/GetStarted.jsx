@@ -1,9 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import cngkit1 from '../assets/images/cngkit1.jpg';
+import daughterSation from '../assets/images/daughterSation.jpg';
+import truckscetch from '../assets/images/truckscetch.jpg';
+import dieselcng from '../assets/images/dieselcng.jpg';
+
 
 const GetStarted = () => {
   return (
-    <div className="bg-gray-100 min-h-screen py-10 mt-10">
+    <div className="bg-gray-200 min-h-screen py-10 mt-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-bold text-green-800 text-center mb-10">Get Started with GreenGas Technologies</h1>
 
@@ -14,11 +19,13 @@ const GetStarted = () => {
             <p className="text-gray-700 mb-4">
               Our Petrol CNG Conversion Kits are designed to help you transition from petrol to compressed natural gas (CNG) seamlessly. Our kits are reliable, efficient, and environmentally friendly.
             </p>
+            <Link to='PetrolCarsCNGSavings'>
             <img
               className="w-full h-64 object-cover rounded-lg shadow-lg"
-              src="https://images.unsplash.com/photo-1586281397180-5e495a2d3818?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+              src={cngkit1}
               alt="Petrol CNG Conversion Kit"
             />
+            </Link>
           </div>
         </section>
 
@@ -29,11 +36,13 @@ const GetStarted = () => {
             <p className="text-gray-700 mb-4">
               Convert your diesel vehicles to CNG with our advanced Diesel CNG Conversion Kits. Enjoy the benefits of cleaner fuel while maintaining performance and efficiency.
             </p>
+            <Link to='/dieseltrucksavings'>
             <img
               className="w-full h-64 object-cover rounded-lg shadow-lg"
-              src="https://images.unsplash.com/photo-1542281286-9e0a16bb7366?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+              src={truckscetch}
               alt="Diesel CNG Conversion Kit"
             />
+            </Link>
           </div>
         </section>
 
@@ -44,11 +53,13 @@ const GetStarted = () => {
             <p className="text-gray-700 mb-4">
               Our conversion kits for diesel engine power generators offer a cost-effective solution to reduce emissions and fuel costs. Convert your generators to CNG and contribute to a greener environment.
             </p>
+            <Link to='/getstarted/dieselgensavings'>
             <img
               className="w-full h-64 object-cover rounded-lg shadow-lg"
-              src="https://images.unsplash.com/photo-1583225153524-4a5984b8f47e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+              src={dieselcng}
               alt="Diesel Engine Power Generator Conversion Kit"
             />
+            </Link>
           </div>
         </section>
 
@@ -61,7 +72,7 @@ const GetStarted = () => {
             </p>
             <img
               className="w-full h-64 object-cover rounded-lg shadow-lg"
-              src="https://images.unsplash.com/photo-1542281286-9e0a16bb7366?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+              src={daughterSation}
               alt="Daughter Station"
             />
           </div>

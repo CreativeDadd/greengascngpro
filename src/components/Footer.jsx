@@ -17,6 +17,9 @@ const Footer = () => {
             <p>
               GreenGas (CNG) Technologies Limited is dedicated to providing top-notch conversion solutions for petrol and diesel engines, including CNG kits for cars, buses, distribution vans, tricycles, diesel trucks, trailers, vans, SUVs, and heavy-duty engines.
             </p>
+            <Link to='/blog' className="mt-2 text-1xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            Latest Articles and Insights
+          </Link>
           </div>
 
           {/* Navigation Links */}

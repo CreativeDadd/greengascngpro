@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import sustainability from '../assets/images/sustainability.jpg';
 const LearnMore = () => {
   return (
     <div className="bg-white mt-14">
       <header className="bg-green-800 text-white">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold">Learn More About GreenGas Technologies Limited</h1>
+          <h1 className="text-3xl text-center font-bold">Learn More About GreenGas Technologies Limited</h1>
         </div>
       </header>
       <main className="mt-10">
@@ -53,7 +53,7 @@ const LearnMore = () => {
               <div className="lg:w-1/2 lg:pl-8">
                 <img
                   className="mt-4 lg:mt-0 w-full h-64 object-cover rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1561911759-025f63d078c1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+                  src={sustainability}
                   alt="CNG fuel"
                 />
               </div>
@@ -67,7 +67,7 @@ const LearnMore = () => {
             </p>
             <div className="mt-8">
               <Link
-                to="/contact"
+                to="/contactlist"
                 className="inline-block px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700"
               >
                 Contact Us
