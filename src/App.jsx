@@ -25,6 +25,7 @@ import Contactlist from './components/Contactlist';
 import PetrolCarsCNGSavings from './pages/PetrolCarsCNGSavings'
 import DieselGenSavings from './pages/DieselGenSavings';
 import Roi from './components/Roi';
+import CngRoiCalculator from './components/CngRoiCalculator';
 
 
 
@@ -62,6 +63,7 @@ const App = () => {
             <Route path="/getstarted/PetrolCarsCNGSavings" element={<PetrolCarsCNGSavings />} />
             <Route path="/getstarted/dieselgensavings" element={<DieselGenSavings />} />
             <Route path="/roi" element={<Roi />} />
+            <Route path="/calculators" element={<CngRoiCalculator />} />
             
           </Routes>
         </main>

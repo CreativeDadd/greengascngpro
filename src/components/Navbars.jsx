@@ -83,6 +83,14 @@ const Navbars = () => {
                   Products
                 </NavLink>
                 <NavLink
+              to="/calculators"
+              className="text-white hover:bg-green-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              onClick={handleNavLinkClick}
+            >
+              CNG ROI Calculators
+            </NavLink>
+
+                <NavLink
                   to="/blog"
                   className="text-white hover:bg-green-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
@@ -208,6 +216,13 @@ const Navbars = () => {
               onClick={handleNavLinkClick}
             >
               Products
+            </NavLink>
+            <NavLink
+              to="/calculators"
+              className="text-white hover:bg-green-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              onClick={handleNavLinkClick}
+            >
+              CNG ROI Calculators
             </NavLink>
             <NavLink
               to="/blog"
