@@ -7,8 +7,8 @@ const DieselTruckSavings = () => {
     <div className="bg-gray-100 min-h-screen py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-          <div className="p-8 bg-green-50">
-            <h1 className="text-4xl font-extrabold text-green-700 mb-4 text-center">Fuel Cost Savings with Dual-Fuel System</h1>
+          <div className="p-4 bg-green-50">
+            <h1 className="text-4xl font-extrabold text-green-700 mb-4 text-center">Diesel Cost Savings with 60%Diesel & 40%CNG Dual-Fuel System</h1>
             
             <h2 className="text-3xl font-semibold text-gray-900 mb-4">Objective</h2>
             <p className="text-gray-700 leading-relaxed mb-8">
@@ -26,7 +26,7 @@ const DieselTruckSavings = () => {
             </ul>
             
             <h2 className="text-3xl font-semibold text-gray-900 mb-4">Calculations</h2>
-            <div className="bg-white p-6 rounded-lg shadow-md mb-8">
+            <div className="bg-white p-4 rounded-lg shadow-md mb-8">
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Option 1: Fuel Consumption for 15,000 km with 100% Diesel</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Fuel consumption per 100 km: 50 liters

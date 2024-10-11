@@ -19,12 +19,13 @@ const GetStarted = () => {
             <p className="text-gray-700 mb-4">
               Our Petrol CNG Conversion Kits are designed to help you transition from petrol to compressed natural gas (CNG) seamlessly. Our kits are reliable, efficient, and environmentally friendly.
             </p>
-            <Link to='PetrolCarsCNGSavings'>
+            <Link to='/roi'>
             <img
               className="w-full h-64 object-cover rounded-lg shadow-lg"
               src={cngkit1}
               alt="Petrol CNG Conversion Kit"
             />
+            <p>LEAR MORE...</p>
             </Link>
           </div>
         </section>
@@ -42,6 +43,7 @@ const GetStarted = () => {
               src={truckscetch}
               alt="Diesel CNG Conversion Kit"
             />
+            LEARN MORE...
             </Link>
           </div>
         </section>
